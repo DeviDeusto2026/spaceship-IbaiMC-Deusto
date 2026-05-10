@@ -6,7 +6,7 @@ public class EnemyLife : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name.Equals("Bullet")) return;
+        if (!collision.gameObject.tag.Equals("Bullet")) return;
 
         Destroy(collision.gameObject);
 
