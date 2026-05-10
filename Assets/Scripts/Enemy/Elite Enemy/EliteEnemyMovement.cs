@@ -4,7 +4,7 @@ using UnityEngine;
 public class EliteEnemyMovement : MonoBehaviour
 {
     [SerializeField] float speed;
-    [SerializeField] GameObject player;
+    public GameObject player;
     [SerializeField] float swingTimer;
     [SerializeField] float swingSpeed;
     float timer;
