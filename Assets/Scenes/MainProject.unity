@@ -1634,6 +1634,7 @@ GameObject:
   - component: {fileID: 2048147859}
   - component: {fileID: 2048147858}
   - component: {fileID: 2048147862}
+  - component: {fileID: 2048147863}
   m_Layer: 0
   m_Name: SpaceShip
   m_TagString: Untagged
@@ -1747,6 +1748,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa63a3254a567a84397321b59349da2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpaceshipMovement
+  speed: 5
+--- !u!114 &2048147863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048147857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c73bac6a72246408f73c4d40e6c51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceshipRotation
+  rotationSpeed: 40
 --- !u!1001 &2100650926
 PrefabInstance:
   m_ObjectHideFlags: 0
