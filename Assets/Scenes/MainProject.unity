@@ -1635,6 +1635,7 @@ GameObject:
   - component: {fileID: 2048147858}
   - component: {fileID: 2048147862}
   - component: {fileID: 2048147863}
+  - component: {fileID: 2048147864}
   m_Layer: 0
   m_Name: SpaceShip
   m_TagString: Untagged
@@ -1762,6 +1763,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpaceshipRotation
   rotationSpeed: 40
+--- !u!114 &2048147864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048147857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79309cb6f84eb1d4092f53e32f65cf8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceshipWeapon
+  bullet: {fileID: 8286831293235357456, guid: 22f73bac4fe976b45b97b6c57d358f03, type: 3}
+  bulletSpeed: 1500
 --- !u!1001 &2100650926
 PrefabInstance:
   m_ObjectHideFlags: 0
