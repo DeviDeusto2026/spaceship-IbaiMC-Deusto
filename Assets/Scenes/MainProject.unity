@@ -1749,7 +1749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa63a3254a567a84397321b59349da2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpaceshipMovement
-  speed: 5
+  speed: 10
 --- !u!114 &2048147863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1762,7 +1762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53c73bac6a72246408f73c4d40e6c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpaceshipRotation
-  rotationSpeed: 40
+  rotationSpeed: 60
 --- !u!114 &2048147864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,7 +1870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7315243509858501012, guid: e54939736ab6d1940b46c2ee5eb32d68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.91
+      value: 10.94
       objectReference: {fileID: 0}
     - target: {fileID: 7315243509858501012, guid: e54939736ab6d1940b46c2ee5eb32d68, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1878,7 +1878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7315243509858501012, guid: e54939736ab6d1940b46c2ee5eb32d68, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.72
+      value: 14.06
       objectReference: {fileID: 0}
     - target: {fileID: 7315243509858501012, guid: e54939736ab6d1940b46c2ee5eb32d68, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1908,6 +1908,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9056160713377901239, guid: e54939736ab6d1940b46c2ee5eb32d68, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2048147857}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
