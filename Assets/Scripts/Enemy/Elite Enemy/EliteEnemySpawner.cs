@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class EliteEnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject enemy;
     [SerializeField] float enemyOffset;
