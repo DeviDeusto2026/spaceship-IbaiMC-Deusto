@@ -11,11 +11,11 @@ public class SpaceshipMovement : MonoBehaviour
 
     void movement()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
             this.transform.position += this.transform.forward * speed * Time.deltaTime;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.LeftShift))
         {
             this.transform.position += -1 * this.transform.forward * speed * Time.deltaTime;
         }

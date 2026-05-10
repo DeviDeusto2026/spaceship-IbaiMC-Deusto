@@ -11,22 +11,22 @@ public class SpaceshipRotation : MonoBehaviour
 
     void Rotation()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
         {
             this.transform.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.A))
         {
             this.transform.rotation *= Quaternion.Euler(0, -1 * rotationSpeed * Time.deltaTime, 0);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.W))
         {
             this.transform.rotation *= Quaternion.Euler(rotationSpeed * Time.deltaTime, 0 , 0);
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.S))
         {
             this.transform.rotation *= Quaternion.Euler(-1 * rotationSpeed * Time.deltaTime, 0, 0);
         }
