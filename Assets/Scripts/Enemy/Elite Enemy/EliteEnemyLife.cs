@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EliteEnemyLife : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class EliteEnemyLife : MonoBehaviour
         if (lives <= 0)
         {
             enemySpawnerController.eliteEnemyOnField = false;
+            SceneManager.LoadScene("Win");
             Destroy(this.gameObject);
         }
     }

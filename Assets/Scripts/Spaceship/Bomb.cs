@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bomb : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class Bomb : MonoBehaviour
 
         foreach(GameObject enemy in enemiesList)
         {
+            if (enemy.name.Equals("EliteEnemy(Clone)")) SceneManager.LoadScene("Win");
             Destroy(enemy);
         }
 

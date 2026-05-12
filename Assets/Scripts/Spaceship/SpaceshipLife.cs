@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpaceshipLife : MonoBehaviour
 {
@@ -11,6 +12,6 @@ public class SpaceshipLife : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("You die");
+        SceneManager.LoadScene("Lose");
     }
 }
