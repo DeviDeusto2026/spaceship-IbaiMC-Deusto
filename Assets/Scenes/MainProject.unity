@@ -1978,7 +1978,7 @@ PrefabInstance:
       objectReference: {fileID: 5523873827494543977, guid: f95af3b80e886364db58a3a6aeff60e1, type: 3}
     - target: {fileID: 4739270742507606389, guid: 665c78a85db94f4498e0078ad549bb54, type: 3}
       propertyPath: bombSpeed
-      value: 1000
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 4739270742507606389, guid: 665c78a85db94f4498e0078ad549bb54, type: 3}
       propertyPath: bombNumber
@@ -1988,6 +1988,10 @@ PrefabInstance:
       propertyPath: enemySpawnerController
       value: 
       objectReference: {fileID: 495269153}
+    - target: {fileID: 5867373312050209928, guid: 665c78a85db94f4498e0078ad549bb54, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7815753850840248216, guid: 665c78a85db94f4498e0078ad549bb54, type: 3}
       propertyPath: m_Name
       value: SpaceShip
