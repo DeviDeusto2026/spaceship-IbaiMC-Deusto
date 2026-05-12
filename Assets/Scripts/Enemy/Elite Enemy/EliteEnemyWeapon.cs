@@ -7,7 +7,7 @@ public class EliteEnemyWeapon : MonoBehaviour
     [SerializeField] GameObject bullet;
     float bulletSpeed = 2000;
     bool shootInCooldown = true;
-    float bulletOffset = 5;
+    float bulletOffset = 10;
 
     void Start()
     {
