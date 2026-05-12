@@ -8,8 +8,6 @@ public class EnemyLife : MonoBehaviour
     {
         if (!collision.gameObject.tag.Equals("Bullet")) return;
 
-        Destroy(collision.gameObject);
-
         lives--;
         if (lives <= 0) Destroy(this.gameObject);
     }
